@@ -6,6 +6,7 @@
 
 body {
     font-family: "Poppins", serif;
+    padding: 2em;
 }
 
 
@@ -31,9 +32,11 @@ body {
     margin: 1em;
     text-align: justify;
 }
-.container__text{
-    font-size: 1.2em; 
+
+.container__text {
+    font-size: 1.2em;
 }
+
 h1 {
     font-size: 2em;
     font-weight: 600;
@@ -42,7 +45,7 @@ h1 {
 
 
 .image-responsive {
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -60,10 +63,12 @@ h1 {
     margin: .5em .25em;
     cursor: pointer;
 }
-.btn a{
+
+.btn a {
     color: var(--white, #fff);
     text-decoration: none;
 }
+
 .btn:hover {
     background-color: var(--secondary, #6c757d);
     transition: 0.3s;
