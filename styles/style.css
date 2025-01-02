@@ -6,7 +6,7 @@
 
 body {
     font-family: "Poppins", serif;
-    padding: 2em;
+    padding: 1em;
 }
 
 
@@ -50,6 +50,7 @@ h1 {
     display: block;
     margin: 0 auto;
     object-fit: cover;
+
     border-radius: 2em;
 }
 
