@@ -4,27 +4,28 @@
     --secondary: #6c757d;
 }
 
-body {
+html {
     font-family: "Poppins", serif;
+}
+
+.container {
     padding: 1em;
 }
 
 
-.container--main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
-    justify-content: center;
-    margin-top: 2em;
-}
 
 @media screen and (min-width: 900px) {
-    .container--main {
-        flex-wrap: nowrap;
-    }
+
 
     .container__section--text {
-        width: 50%;
+        flex-basis: 50%;
+    }
+
+    @media screen and (min-width: 900px) {
+        .container--main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }
 
@@ -44,7 +45,7 @@ h1 {
 
 
 .image-responsive {
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -64,7 +65,10 @@ h1 {
     cursor: pointer;
 }
 
-.btn a {
+.btn
+
+/* a */
+    {
     color: var(--white, #fff);
     text-decoration: none;
 }
